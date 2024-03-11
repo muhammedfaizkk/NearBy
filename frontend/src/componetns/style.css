@@ -1,0 +1,582 @@
+.me-auto {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-parent {
+    background-color: black;
+}
+
+a {
+    color: white;
+}
+
+.nav-logo-section {
+    margin-right: 38px;
+}
+
+
+
+
+.nav-logo {
+    color: white;
+}
+
+.nav-logo-section {
+    font-size: 38px;
+    font-weight: 600;
+
+}
+
+.nav-main {
+    border-bottom: 1px solid #83afaf;
+    ;
+}
+
+.background-img img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.menuBar {
+    cursor: pointer;
+}
+
+.content-back {
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+@media only screen and (max-width: 739px) {
+    .content-back {
+        color: white;
+        position: absolute;
+        top: 35px;
+        left: 100px;
+    }
+}
+
+.background-img {
+    position: relative;
+}
+
+.abslt-cnt h5 {
+    line-height: 30px;
+}
+
+.content-back {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.abslt-cnt {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.abslt-cnt h2 {
+    font-size: 43px;
+}
+
+@media(max-width: 988px) {
+
+
+    .abslt-cnt h2 {
+        font-size: 33px;
+    }
+
+    .abslt-cnt h5 {
+        font-size: 18px;
+    }
+
+    .content-back {
+        color: white;
+        position: absolute;
+        top: 30px;
+        left: 50px;
+    }
+}
+
+@media(max-width: 686px) {
+
+
+    .abslt-cnt h2 {
+        font-size: 28px;
+    }
+
+    .abslt-cnt h5 {
+        font-size: 15px;
+    }
+
+
+
+    .content-back {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .abslt-cnt h5 {
+        line-height: 20px;
+    }
+}
+
+@media(max-width: 462px) {
+
+    .content-back {
+        color: white;
+        position: absolute;
+        top: 40px;
+        left: 20px;
+    }
+}
+
+.abslt-cnt-mob {
+    font-size: 12px;
+}
+
+.footer-prnt {
+    padding: 30px 50px;
+    background-color: #004466;
+    color: white;
+}
+
+.footer-cnt {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mail {
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid black;
+
+}
+
+.footer-menu {
+    list-style: none;
+
+}
+
+.footer-menu li {
+    line-height: 35px;
+}
+
+.footer-op {
+    text-align: center;
+}
+
+.parent-main {
+    margin: 50px 0px;
+}
+
+.footer-parent {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.card-cnt {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-img {
+    height: 260px;
+}
+
+.card-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.img-inp input {
+    outline: 0;
+    border: 0;
+    background-color: #eff5f5;
+    flex-grow: 0px;
+
+
+}
+
+.img-inp {
+    border: 1px solid #83afaf;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+
+
+
+.Signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+}
+
+.Signup-sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 70px 100px;
+    background-color: #eff5f5;
+    border: 1px solid #83afaf;
+    border-radius: 10px;
+
+}
+
+.input-sty-prnt {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-sty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.endSection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px;
+}
+
+.sing-head {
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 933px) {
+    .Signup-sub {
+        padding: 50px;
+    }
+}
+
+.iconsLo {
+    height: 30px;
+    width: 30px;
+}
+
+.dashboard {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #eff5f5;
+}
+
+@media only screen and (max-width: 461px) {
+    .Signup-sub {
+        padding: 30px 10px;
+    }
+
+    .img-inp {
+        padding: 8px 5px;
+        width: 80%;
+    }
+
+    .Signup {
+        margin: 40px 0px;
+    }
+
+    .iconsLo {
+        height: 20px;
+        width: 20px;
+    }
+
+    .resDash {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin: 40px;
+    }
+
+    .dashboard {
+        height: 200px;
+        width: 250px;
+
+    }
+}
+
+
+
+span {
+    color: red;
+}
+
+.nav-profsection img {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-logout {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-logout a {
+    height: 40px;
+}
+
+.Link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+
+}
+
+.resDash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 80px 50px;
+}
+
+.dashboard {
+    padding: 50px;
+    border: 1px solid #83afaf;
+    border-radius: 10px;
+    background-color: #eff5f5;
+}
+
+
+.dashboard img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-parent-sub {
+    padding: 30px;
+}
+
+.nav-btn {
+    width: 70px;
+}
+
+.input-sec input {
+    outline: 0px;
+    border: 0px;
+    background-color: #eff5f5;
+}
+
+.input-sec {
+    display: flex;
+    gap: 15px;
+    border: 1px solid #83afaf;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.addresSub {
+    padding: 50px 80px;
+    border: 1px solid #83afaf;
+    border-radius: 10px;
+    background-color: #eff5f5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.addRes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.inputSection-main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 461px) {
+    .addresSub {
+        padding: 40px 20px;
+
+    }
+
+}
+
+.profilName {
+    color: white;
+}
+
+.card-button {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-button a {
+    width: 100px;
+
+}
+
+.remove-btm {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.remove-btm button {
+    width: 93%;
+}
+
+.users-table {
+    width: 80%;
+    text-align: center;
+    border: 1px solid #83afaf;
+}
+
+.users-table th {
+    padding: 10px 20px;
+    background-color: #83afaf;
+    border: 2px solid white;
+
+}
+
+.usersList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.users-table td {
+    padding: 10px 20px;
+    border: 1px solid #83afaf;
+}
+
+.detailpage-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    /* Or "cover" depending on your preference */
+}
+
+
+
+.riview-section {
+    margin-top: 30px;
+}
+
+.active-btn {
+    width: 100%;
+}
+
+#img-field-wraper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#img-field-wraper input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+/* Riview section */
+
+.review-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reviews {
+    margin-top: 20px;
+}
+
+.review {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.review h3 {
+    margin: 0;
+}
+
+.review p {
+    margin-top: 5px;
+}
+
+.review .rating {
+    color: #f39c12;
+    font-size: 1.2em;
+}
+
+.review-form {
+    margin-top: 20px;
+}
+
+.trush-bin {
+    width: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.trush-bin-userslist {
+    width: 25px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 640px) {
+    .users-table td {
+        padding: 5px 0px;
+        border: 1px solid #83afaf;
+        text-wrap: wrap;
+        font-size:10px;
+    }
+
+    .users-table th {
+        padding: 5px 5px;
+        font-size:10px;
+    }
+    .trush-bin-userslist {
+        width: 15px;
+        cursor: pointer;
+    }
+    .active-btn{
+        font-size:12px;
+    }
+}
+.menu-icon{
+    width:25px;
+}
